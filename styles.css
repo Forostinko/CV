@@ -1,0 +1,103 @@
+
+
+.flex {
+    display: flex;
+    justify-content: space-around; 
+    /* margin: 50px auto; */
+}
+
+.avatar img {
+    justify-content: flex-start;
+    max-width: 300px;
+    display: block;
+}
+
+.header {
+    background-color: aquamarine;
+    /* justify-content: space-around; */
+    flex-grow: 5;  
+}
+
+#container1 {
+    display: flex;
+}
+
+.skills {
+    width: 25%;  
+}
+
+.profile { 
+    padding: 100px;
+}
+
+.stars {
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-top: 5px;
+}
+
+.skill-name {
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.front {
+    background-color: aquamarine;
+}
+
+img {
+    max-width: 400px;
+}
+
+table {
+    margin: 0 auto;
+    border: 1px solid black;
+}
+td {
+    width: 700px;
+    border: 1px solid black;
+}
+
+td:first-child {
+    width: 400px;
+}
+
+span {
+    margin-left: 10px;
+}
+
+p {
+    margin: 0;
+} */

@@ -3,7 +3,6 @@
 .flex {
     display: flex;
     justify-content: space-around; 
-    /* margin: 50px auto; */
 }
 
 .avatar img {
@@ -14,8 +13,8 @@
 
 .header {
     background-color: aquamarine;
-    /* justify-content: space-around; */
     flex-grow: 5;  
+    padding-left: 50px;
 }
 
 #container1 {
@@ -23,11 +22,12 @@
 }
 
 .skills {
-    width: 25%;  
+    flex-basis: 25%;  
 }
 
 .profile { 
     padding: 100px;
+    flex-basis: 75%;
 }
 
 .stars {
@@ -38,6 +38,16 @@
 
 .skill-name {
     margin-bottom: 0;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.yellow-stars {
+    color: blue;
 }
 
 

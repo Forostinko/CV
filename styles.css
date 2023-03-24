@@ -5,6 +5,12 @@
     justify-content: space-around; 
 }
 
+.wrapper {
+    box-shadow: 10px 10px 10px gray;
+    width: 70%;
+    margin: 0 auto;
+}
+
 .avatar img {
     justify-content: flex-start;
     max-width: 300px;
@@ -22,12 +28,12 @@
 }
 
 .skills {
-    flex-basis: 25%;  
+    flex-basis: 35%;  
 }
 
 .profile { 
-    padding: 100px;
-    flex-basis: 75%;
+    padding: 40px;
+    flex-basis: 80%;
 }
 
 .stars {
